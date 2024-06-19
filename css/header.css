@@ -1,0 +1,27 @@
+div.wrap {
+  a: 10;
+}
+div.wrap nav {
+  a: 10;
+}
+div.wrap nav h1 {
+  a: 10;
+}
+div.wrap nav ul.gnb {
+  a: 10;
+}
+div.wrap nav ul.gnb li {
+  a: 10;
+}
+div.wrap nav ul.gnb li a {
+  a: 10;
+}
+div.wrap nav ul.enb {
+  a: 10;
+}
+div.wrap nav ul.enb li {
+  a: 10;
+}
+div.wrap nav ul.enb li a {
+  a: 10;
+}
