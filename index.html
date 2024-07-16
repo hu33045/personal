@@ -12,7 +12,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css"> 
-    <link rel="stylesheet" href="responsive.css">   
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+        <!-- 슬릭 -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script>
+           $(document).ready(function(){
+                $('.ani').slick({
+                    dots:true,
+                    infinite: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: false,
+                    autoplaySpeed: 1000,
+                    speed:3000,  
+                });
+                $('.subani').slick({
+                    dots:true,
+                    infinite: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    autoplay: false,
+                    autoplaySpeed: 1000,
+                    speed:3000,  
+                });
+ 
+               });
+        </script> 
 </head>
 <body>
     <!-- 상단영역 -->
@@ -31,6 +60,7 @@
                     <li><a href="" class="block">Notion</a></li>
                     <li><a href="" class="block">카톡</a></li>
                 </ul>
+                <button class="ham">메뉴보기</button>
             </nav>
         </div>
     </header>
@@ -81,59 +111,41 @@
             <div class="wrap paddingT50 paddingB50 flex">
                 <h2 class="h2 bold borderT">Skill&Tools</h2>
                 <ul class="list border2 grid">
-                    <li class="">
-                        <h3 class="h3">프론트엔드</h3>
-                        <ul class="sub flex">
-                            <li class="p15"><strong class="bold">HTML5</strong></li>
-                            <li class="p15"><strong class="bold">CSS3</strong></li>
-                            <li class="p15"><strong class="bold">JavaScript</strong></li>
-                            <li class="p15"><strong class="bold">jQuery</strong></li>
-                            <li class="p15"><strong class="bold">반응형 웹디자인</strong></li>
-                            <li class="p15"><strong class="bold">웹표준</strong></li>
-                            <li class="p15"><strong class="bold">웹접근성</strong></li>
-                            <li class="p15"><strong class="bold">웹폰트</strong></li>
-                            <li class="p15"><strong class="bold">웹아이콘</strong></li>
-                            <li class="p15"><strong class="bold">SVG</strong></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <h3 class="h3">프레임워크 및<span class="block"></span> 라이브러리</h3>
-                        <ul class="sub flex">
-                            <li class="p15"><strong class="bold">Vue.js</strong></li>
-                            <li class="p15"><strong class="bold">Bootstrap</strong></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <h3 class="h3">디자인 Tools</h3>
-                        <ul class="sub flex">
-                            <li class="p15"><strong class="bold">포토샵</strong>
-                            <li class="p15"><strong class="bold">illustration</strong></li>
-                            <li class="p15"><strong class="bold">피그마</strong></li>
-                            <li class="p15"><strong class="bold">카카오 오븐</strong></li>
-                            <li class="p15"><strong class="bold">발사믹</strong></li>
-                            <li class="p15"><strong class="bold">알마인드</strong></li>
-                            <li class="p15"><strong class="bold">프리미어프로</strong></li>
-                            <li class="p15"><strong class="bold">어브에프터</strong></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <h3 class="h3">버전 관리 및<span class="block"></span> 협업 도구</h3>
-                        <ul class="sub flex">
-                            <li class="p15"><strong class="bold">Git</strong></li>
-                            <li class="p15"><strong class="bold">GitHub</strong></li>
-                            <li class="p15"><strong class="bold">Google<span class="block"></span>Drive</strong></li>
-                            <li class="p15"><strong class="bold">Firefox<span class="block"></span>개발자도구</strong></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <h3 class="h3">기타 도구 <span class="block"></span>및 기술</h3>
-                        <ul class="sub flex">
-                            <li class="p15"><strong class="bold">VS Code</strong></li>
-                            <li class="p15"><strong class="bold">Atom<span class="block"></span> Editor</strong></li>
-                            <li class="p15"><strong class="bold">Emmet</strong></li>
-                            <li class="p15"><strong class="bold">Sass</strong></li>
-                            <li class="p15"><strong class="bold">웹사이트<span class="block"></span> 최적화</strong></li>
-                            <li class="p15"><strong class="bold">검색엔진<span class="block"></span> 최적화</strong></li>
+                    <li class="skill">
+                        <ul class="subani">
+                            <li class="p15">
+                                <strong class="bold"></strong>
+                                <h3>HTML5</h3>
+                                </li>                                    
+                            <li class="p15"><strong class="bold"></strong><h3>CSS3</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>JavaScript</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>jQuery</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>반응형 웹디자인</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>웹표준</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>웹접근성</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>웹폰트</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>웹아이콘</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>SVG</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Vue.js</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Bootstrap</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>포토샵</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>illustration</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>피그마</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>카카오 오븐</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>발사믹</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>알마인드</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>프리미어프로</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>어브에프터</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Git</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>GitHub</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Google Drive</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Firefox 개발자도구</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>VS Code</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Atom Editor</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Emmet</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>Sass</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>웹사이트 최적화</h3></li>
+                            <li class="p15"><strong class="bold"></strong><h3>검색엔진 최적화</h3></li>
                         </ul>
                     </li>
                 </ul>
@@ -146,13 +158,13 @@
                 <p>"아래 작품들은 제가 학원에서 수료하는 동안 진행한 다양한 웹디자인 및 웹퍼블리싱 프로젝트들입니다. <span class="block"></span>
                     각 프로젝트는 최신 기술과 디자인 트렌드를 반영하여 제작되었으며, 실무에서의 적용 가능성을 염두에 두고 개발되었습니다."
                 </p>
-                <ul class="list">
-                    <li>
+                <ul class="ani">
+                    <li class="ani1">
                      <div>   
                         <h3 class="h3">공제회홈페이지</h3>
                         <figure>
                             <img src="img/pf1.png" alt="공제회홈페이지">
-                            <figcaption>작업내용보기</figcaption>
+                            <figcaption></figcaption>
                         </figure>
                         <ul class="sub">
                             <li><strong class="bold">개요:</strong>온라인 쇼핑몰 사이트 디자인 및 퍼블리싱</li>
@@ -171,15 +183,15 @@
                             <li><strong class="bold">기여도:</strong>80% (디자인, 퍼블리싱 및 테스트)</li>
                             <li class="flex"><a href="#" class="block b-medium  rounded border1">깃허브 소스보기</a>
                              <a href="https://www.ktcu.or.kr/index#none" class="block b-medium blue rounded ">작품보기</a></li>
-                            </ul>
+                        </ul>
                      </div>     
                     </li>
-                    <li>
+                    <li class="ani2">
                      <div>
                         <h3 class="h3">알툴즈홈페이지</h3>
                         <figure>
-                            <img src="img/pf2.png" alt="알툴즈홈페이지">
-                            <figcaption>작업내용보기</figcaption>
+                            <img src="img/pf2-1.png" alt="알툴즈홈페이지">
+                            <figcaption></figcaption>
                         </figure>
                         <ul class="sub">
                             <li><strong class="bold">개요:</strong>개인 포트폴리오 사이트 디자인 및 퍼블리싱</li>
@@ -201,12 +213,12 @@
                         </ul>
                      </div>
                     </li>
-                    <li>
+                    <li class="ani3">
                      <div>
                         <h3 class="h3">Blog Platform</h3>
                         <figure>
                             <img src="img/pf3.png" alt="Blog Platform">
-                            <figcaption>작업내용보기</figcaption>
+                            <figcaption></figcaption>
                         </figure>
                         <ul class="sub">
                             <li><strong class="bold">개요:</strong>블로그 플랫폼 디자인 및 퍼블리싱</li>
@@ -228,6 +240,87 @@
                         </ul>
                      </div>    
                     </li>
+                    <li class="ani4">
+                        <div>   
+                           <h3 class="h3">하이트진로홈페이지</h3>
+                           <figure>
+                               <img src="img/pf3-1.png" alt="공제회홈페이지">
+                               <figcaption></figcaption>
+                           </figure>
+                           <ul class="sub">
+                               <li><strong class="bold">개요:</strong>온라인 쇼핑몰 사이트 디자인 및 퍼블리싱</li>
+                               <li><strong class="bold">역할:</strong>전체 디자인 및 프론트엔드 퍼블리싱</li>
+                               <li><strong class="bold">사용한 기술:</strong>HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
+                               <li class="work">
+                                   <strong class="bold">작업 과정:</strong>
+                                   <ul>
+                                       <li>아이디어 구상 및 컨셉 설정</li>
+                                       <li>와이어프레임 및 디자인 시안 제작</li>
+                                       <li>HTML/CSS로 레이아웃 구현</li>
+                                       <li>JavaScript/jQuery로 동적 요소 추가</li>
+                                       <li>반응형 디자인 구현</li>
+                                   </ul>
+                               </li>
+                               <li><strong class="bold">기여도:</strong>80% (디자인, 퍼블리싱 및 테스트)</li>
+                               <li class="flex"><a href="#" class="block b-medium  rounded border1">깃허브 소스보기</a>
+                                <a href="https://hitejinro.com/" class="block b-medium blue rounded ">작품보기</a></li>
+                           </ul>
+                        </div>     
+                       </li>
+                       <li class="ani5">
+                        <div>
+                           <h3 class="h3">알툴즈홈페이지</h3>
+                           <figure>
+                               <img src="img/pf2-1.png" alt="알툴즈홈페이지">
+                               <figcaption></figcaption>
+                           </figure>
+                           <ul class="sub">
+                               <li><strong class="bold">개요:</strong>개인 포트폴리오 사이트 디자인 및 퍼블리싱</li>
+                               <li><strong class="bold">역할:</strong>전체 디자인 및 프론트엔드 퍼블리싱</li>
+                               <li><strong class="bold">사용한 기술:</strong>HTML5, CSS3, JavaScript, React</li>
+                               <li class="work">
+                                   <strong class="bold">작업 과정:</strong>
+                                   <ul>
+                                       <li>컨셉 설정 및 아이디어 스케치</li>
+                                       <li>와이어프레임 및 프로토타입 제작</li>
+                                       <li>React를 사용한 컴포넌트 기반 개발</li>
+                                       <li>CSS3로 스타일링 및 애니메이션 추가</li>
+                                       <li>반응형 디자인 적용</li>
+                                   </ul>
+                               </li>
+                               <li><strong class="bold">기여도:</strong>100% (단독 프로젝트)</li>
+                               <li class="flex"><a href="#" class="block b-medium rounded border1">깃허브 소스보기</a>
+                                   <a href="https://altools.co.kr/" class="block b-medium blue rounded">작품보기</a></li>
+                           </ul>
+                        </div>
+                       </li>
+                       <li class="ani6">
+                        <div>
+                           <h3 class="h3">Blog Platform</h3>
+                           <figure>
+                               <img src="img/pf3.png" alt="Blog Platform">
+                               <figcaption></figcaption>
+                           </figure>
+                           <ul class="sub">
+                               <li><strong class="bold">개요:</strong>블로그 플랫폼 디자인 및 퍼블리싱</li>
+                               <li><strong class="bold">역할:</strong>전체 디자인 및 프론트엔드 퍼블리싱</li>
+                               <li><strong class="bold">사용한 기술:</strong>HTML5, CSS3, JavaScript, Vue.js</li>
+                               <li class="work">
+                                   <strong class="bold">작업 과정:</strong>
+                                   <ul>
+                                       <li>사용자 요구 분석 및 기능 정의</li>
+                                       <li>와이어프레임 및 초기 디자인 시안 제작</li>
+                                       <li>Vue.js를 사용한 컴포넌트 기반 개발</li>
+                                       <li>CSS3로 스타일링 및 레이아웃 구성</li>
+                                       <li>반응형 디자인 구현</li>
+                                   </ul>
+                               </li>
+                               <li><strong class="bold">기여도:</strong>90% (디자인, 퍼블리싱 및 테스트)</li>
+                               <li class="flex"><a href="#" class="block b-medium  rounded border1 ">깃허브 소스보기</a>
+                                   <a href="https://blog.naver.com/khu33045" class="block b-medium blue rounded">작품보기</a></li>
+                           </ul>
+                        </div>    
+                       </li>
                 </ul>
             </div>
         </section>
