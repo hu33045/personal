@@ -24,7 +24,7 @@ ACCUNIQ https://hu33045.github.io/pf3/
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
 ![pf1](https://github.com/hu33045/pf1/blob/main/show.png)
-![pf2](https://hu33045.github.io/personal/img/pf2-1.png)
+![pf2](https://github.com/hu33045/pf2/blob/main/als.png)
 ![pf3-어큐닉](https://hu33045.github.io/pf3/img/slick-dot/i8.jpg)
 
 <h3 align="left">Languages and Tools:</h3>
@@ -39,10 +39,6 @@ ACCUNIQ https://hu33045.github.io/pf3/
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
 </p>
-
-https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
-
-
 ## 작성자 정보
 hu330456@naver.com
 
