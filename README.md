@@ -22,7 +22,7 @@
 ## 포트폴리오 작품
 (작품들을 나열하고 각 작품에 대한 간략한 설명과 링크 제공)
 꿈끙이의 에듀토크 https://blog.naver.com/khu33045/
-ACCUNIQ https://pageservice.github.io/pf1/
+ACCUNIQ https://hu33045.github.io/pf3/
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
 ![pf1](https://github.com/pageservice/personal/assets/71798491/040b7316-5c4c-4a09-b7e8-6c54d60ec832)
