@@ -26,12 +26,6 @@ ACCUNIQ https://hu33045.github.io/pf3/
 ![pf1](https://hu33045.github.io/personal/img/pf1.png)
 ![pf2](https://hu33045.github.io/personal/img/pf2-1.png)
 ![pf3-어큐닉](https://hu33045.github.io/pf3/img/slick-dot/i8.jpg)
-![pf4](https://github.com/pageservice/personal/assets/71798491/e8b59bed-76df-470c-8aec-71f580ab6cca)
-
-
-
-
-![ww](https://github.com/pageservice/personal/assets/71798491/30c357e8-d39b-42e6-9c30-0db7706f73d4)
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left" style="white-space: pre-line; display: flex;">
