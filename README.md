@@ -40,7 +40,7 @@ ACCUNIQ https://hu33045.github.io/pf3/
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
 </p>
 
-
+https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
 
 
 ## 작성자 정보
