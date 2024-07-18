@@ -23,7 +23,7 @@
 ACCUNIQ https://hu33045.github.io/pf3/
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
-![pf1](https://hu33045.github.io/personal/img/pf1.png)
+![pf1](https://github.com/hu33045/pf1/blob/main/show.png)
 ![pf2](https://hu33045.github.io/personal/img/pf2-1.png)
 ![pf3-어큐닉](https://hu33045.github.io/pf3/img/slick-dot/i8.jpg)
 
