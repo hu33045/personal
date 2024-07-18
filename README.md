@@ -1,6 +1,6 @@
 (README 파일을 작성할 때, 명확하고 정보를 잘 전달할 수 있도록 노력하세요. 이 파일은 취업 또는 협업 기회를 위한 중요한 자료가 될 수 있습니다.)
 ### https://pageservice.github.io/personal/
-# 프로젝트 명 : 김현주's 포트폴리오 홈페이지bash
+# 프로젝트 명 : 김현주's 포트폴리오 홈페이지
 <h1>제목</h1>## 프로젝트 목표
 취업을 위한 포트폴리오 제작, 자신의 작업을 전시하고 홍보
 
@@ -21,7 +21,7 @@
 
 ## 포트폴리오 작품
 (작품들을 나열하고 각 작품에 대한 간략한 설명과 링크 제공)
-삼성전자 클론코딩 http://testyong.dothome.co.kr/pf1/main.html
+꿈끙이의 에듀토크 https://blog.naver.com/khu33045/
 ACCUNIQ https://pageservice.github.io/pf1/
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
