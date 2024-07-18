@@ -39,7 +39,7 @@ ACCUNIQ https://hu33045.github.io/pf3/
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
 </p>
 ## 작성자 정보
-hu330456@naver.com
+- hu330456@naver.com
 
-## 향후 계획 (선택 사항)
+## 향후 계획 (선택 사항) 
 
