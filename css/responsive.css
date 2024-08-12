@@ -232,10 +232,12 @@ section::before {
   margin-right: 15px;
 }
  #portfolio div.wrap ul.ani button.slick-prev{
-  left: -10px;
+  left: -4px;
+  top: calc((50% + 60px) * 0.6);
 }
  #portfolio div.wrap ul.ani button.slick-next{
-  right:-20px;
+  right:1px;
+ top: calc((50% + 60px) * 0.6) ;
 }
 .ani li div ul.sub {
   grid-column: 1;
@@ -322,16 +324,16 @@ section::before {
 }
  #product ul.list li figure img{
     vertical-align: top; 
+     min-height: 768px;
 }
 #process div.wrap {
-  grid-template-columns: 100px auto;
-  grid-template-rows: auto auto 1fr 1fr;
+  grid-template-columns: 100px 2fr;
+  grid-template-rows: auto auto 1fr 1fr 1fr;
   column-gap: 5px;
-  font-size : 12px;
-  min-width: 768px;
+  font-size : 10px;
 }
   #process div.wrap ul li {
-  width: calc((100% - 10px) / 5);
+  width: calc((100% - 10px) / 4);
   border-radius: 10px;
   height: 50px;
   }
