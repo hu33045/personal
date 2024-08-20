@@ -9,7 +9,6 @@ body::before {
   position: absolute;
   left: 0;
   top:0;
-  background-color: #fff;
 background-image: url(../img/back.jpg);
   /*! background-position: center; */
   background-repeat: no-repeat; 
