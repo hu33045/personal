@@ -40,7 +40,7 @@ font-size:calc(20px * 1.5);
 font-size: 16px;
 }
 .p15{
-font-size: 25px;
+font-size: 15px;
 }
 .sm14{
 font-size: 14px;
@@ -147,9 +147,13 @@ font-size: 11px;
 
 .border1
 {
-  color:#222 !important;
+  color:yellow !important;
   border:1px solid #333;
   
+}
+.borderT
+{
+  color:yellow !important;  
 }
 ham::before {
   content: "";
