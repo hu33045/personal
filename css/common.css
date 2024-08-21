@@ -100,7 +100,7 @@ font-size: 11px;
 /* border-style */
 .borderT::before {
   content: "";
-  border-top: 5px solid #049714;
+  border-top: 5px solid #ff0;
   padding-top: 10px;
   border-radius: 13px;
   padding-left: 20px;

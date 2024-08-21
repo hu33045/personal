@@ -58,6 +58,19 @@
                 $("footer a.top").click(function(){
                 $("html,body").animste({scrollTop:0},1500);
             });
+            var c=[
+                $("#aboutme").offset().top,
+                $("#skill").offset().top,
+                $("#portfolio").offset().top,
+                $("#process").offset().top,
+                $("#contact").offset().top
+            ]; 
+            var f;
+            f = $("footer div.wrap ul.fnb li").click(function(){
+                f=$(this).index(); 
+                $("html,body").animate({scrollTop:c[f]},1000);  
+                return false; // a태그가 있는 경우에 새로고침으로 명령어실행할 시간이 없어서 작동이 안됨... 
+            });
      });
  </script> 
   <!-- 유투브영상 배경으로 -->
