@@ -9,8 +9,7 @@ body::before {
   position: absolute;
   left: 0;
   top:0;
-  background-color: #fff;
-background-image: url(../img/back.jpg);
+background-image: url(../img/back4.jpg);
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -92,7 +91,10 @@ header div.wrap nav ul.gnb li a {
 header div.wrap nav ul.enb {
     perspective: 200px;
 }
-header div.wrap nav ul.enb li {
+header div.wrap nav ul.enb li{
+  align-self: center;
+}
+header div.wrap nav ul.enb li a {
   font-size: 0;
   width: 50px;
   height: 50px;
@@ -100,13 +102,11 @@ header div.wrap nav ul.enb li {
   background-repeat: no-repeat;
   background-position: center;
   align-self: center;
-  z-index: 1;
 }
-header div.wrap nav ul.enb li:nth-child(1){
+header div.wrap nav ul.enb li:nth-child(1) a{
  background-image: url(../img/robot.png);
-  margin-right:20px;
 }
-header div.wrap nav ul.enb li:nth-child(2){
+header div.wrap nav ul.enb li:nth-child(2) a{
  background-image: url(../img/no.png);
 }
 header div.wrap nav ul.enb li a {
@@ -1048,7 +1048,7 @@ transform: rotateY(-180deg);
    justify-self: center;
    align-items: center;
 }
- #contact ul.sns li {
+ #contact ul.sns li{
   position: relative;
   height: 50px;
   width: 50px;
@@ -1057,7 +1057,7 @@ transform: rotateY(-180deg);
   background-color:#fff; 
   border-radius: 10%;  
  }
- #contact ul.sns li:before{
+ #contact ul.sns li a:before{
   content: "";
   width: 80%;
   height:80%;
@@ -1069,13 +1069,13 @@ transform: rotateY(-180deg);
   background-size: contain;
   position: absolute;
  }
-#contact ul.sns li:nth-child(1)::before{
+#contact ul.sns li:nth-child(1) a::before{
  background-image: url(../img/ka.png);
  }
-#contact ul.sns li:nth-child(2)::before{
+#contact ul.sns li:nth-child(2) a::before{
  background-image: url(../img/in.png);
  }
-#contact ul.sns li:nth-child(3)::before{
+#contact ul.sns li:nth-child(3) a::before{
  background-image: url(../img/gm.png);
  }
  #contact  h3 {
