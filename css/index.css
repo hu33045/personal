@@ -86,7 +86,7 @@ header div.wrap nav ul.gnb li a {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: bold;
-  text-shadow: 1px 2px 1px blue;
+/*   text-shadow: 1px 2px 1px blue; */
 }
 header div.wrap nav ul.enb {
     perspective: 200px;
